@@ -1,0 +1,453 @@
+body {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Css Starts*/
+
+.header-bar{
+    display: inline-flex;
+    width: 100%;
+    background-color: black;
+}
+
+.logo-img{
+    width:100%;
+    max-width: 88px;
+    height: 100%;
+}
+
+.client-logo , .navbarr {
+    width: 50%;
+    padding: 10px;
+}
+
+.navlist ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.navlist ul {
+    list-style: none;
+    padding-top: 20px;
+    margin: 0;
+    float: right;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: white ;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Inter',sans-serif;
+}
+
+.navlist ul li a:hover {
+    color:red;
+}
+
+.navbarr{
+    justify-content: right;
+    padding: 20px;
+}
+
+/* Header Css Ends*/
+
+iframe{
+    width: 100%;
+    height: 500px;
+}
+
+/*photo gallery css starts*/
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 5px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    border: 2px solid #fff;
+}
+
+/*photo gallery css ends*/
+
+/*Footer css starts*/
+
+.footer-section{
+	
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	background-color:#00053b;
+	margin-top:0px;
+	padding: 10px 20px;
+}
+
+.footer-about{
+	padding:0 10px;
+}
+
+.footer-about img{
+	width: 100%;
+    max-width: 250px;
+    height: -webkit-fill-available;
+    padding-top: 10px;
+}
+
+.useful-links, .social-icons, .con{
+	padding:0 20px;
+	
+}
+
+.useful-links h4, .social-icons h4, .con h4{
+	font-size:18px;
+	color:orange;
+	text-transform:capitalize;
+    font-family: 'Inter',sans-serif;
+}
+
+.useful-links ul{
+	list-style: disc;
+	padding:0;
+    color: #fff;
+}
+
+.useful-links ul li, .social-icons ul li {
+	padding-bottom:10px;
+}
+
+.useful-links ul li a{
+	text-decoration:none;
+	font-size:18px;
+    color: #fff;
+    font-family: 'Inter',sans-serif;
+}
+
+.social-icons ul{
+    display: flex;
+}
+
+.social-icons  ul li a{
+    padding: 0px 10px;
+    color: #fff;
+    font-family: 'Inter',sans-serif;
+}
+
+.social-icons ul{
+    list-style: none;
+}
+
+.con ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.con ul li{
+    list-style: none;
+}
+
+
+/* Footer Css Ends*/
+
+@media screen and (max-width:426px) {
+    body {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+    /* Header Css Starts*/
+
+.header-bar{
+    display: inline-flex;
+    width: 100%;
+    background-color: black;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 9px;
+}
+
+.client-logo {
+    width: 30%;
+    padding: 10px;
+}
+
+.navbarr {
+    width: 100%;
+}
+
+.navbarr{
+    justify-content: none;
+    padding: 0px;
+}
+
+.navlist ul {
+    list-style: none;
+    padding-bottom: 20px;
+    margin: 0;
+    float: right;
+    padding-top: 20px;
+}
+
+/* Header Css Ends*/
+
+iframe{
+    width: 100%;
+    height: 250px;
+}
+
+/*photo gallery css starts*/
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    border: 2px solid #fff;
+}
+
+/*photo gallery css ends*/
+
+/* Footer Css Starts*/
+
+.footer-section{
+	
+	display:block;
+	background-color:#00053b;
+	margin-top:0px;
+	padding: 10px 20px;
+}
+
+.footer-about{
+	padding:0 10px;
+}
+
+.footer-about img{
+	width: 100%;
+    max-width: 100px;
+    height: -webkit-fill-available;
+    padding-top: 10px;
+}
+
+.useful-links, .social-icons{
+	padding:0 20px;
+	
+}
+
+.useful-links h4, .social-icons h4{
+	font-size:18px;
+	color:orange;
+	text-transform:capitalize;
+}
+
+.useful-links ul{
+	list-style: disc;
+	padding:0;
+    color: #fff;
+}
+
+.useful-links ul li, .social-icons ul li {
+	padding-bottom:10px;
+}
+
+.useful-links ul li a{
+	text-decoration:none;
+	font-size:18px;
+    color: #fff;
+}
+
+.social-icons ul{
+    display: flex;
+}
+
+.social-icons  ul li a{
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.social-icons ul{
+    list-style: none;
+}
+
+/* Footer Css Ends*/
+
+}
+
+@media screen and (min-width:427px) and (max-width:767px){
+    body {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+
+
+/*photo gallery css starts*/
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    border: 2px solid #fff;
+}
+
+/*photo gallery css ends*/
+
+/* Footer Css Starts*/
+
+.footer-section{
+	
+	display:block;
+	background-color:#00053b;
+	margin-top:0px;
+	padding: 10px 20px;
+}
+
+.footer-about{
+	padding:0 10px;
+}
+
+.footer-about img{
+	width: 100%;
+    max-width: 100px;
+    height: -webkit-fill-available;
+    padding-top: 10px;
+}
+
+.useful-links, .social-icons{
+	padding:0 20px;
+	
+}
+
+.useful-links h4, .social-icons h4{
+	font-size:18px;
+	color:orange;
+	text-transform:capitalize;
+}
+
+.useful-links ul{
+	list-style: disc;
+	padding:0;
+    color: #fff;
+}
+
+.useful-links ul li, .social-icons ul li {
+	padding-bottom:10px;
+}
+
+.useful-links ul li a{
+	text-decoration:none;
+	font-size:18px;
+    color: #fff;
+}
+
+.social-icons ul{
+    display: flex;
+}
+
+.social-icons  ul li a{
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.social-icons ul{
+    list-style: none;
+}
+
+/* Footer Css Ends*/
+}
+
+@media screen and (min-width:768px) and (max-width:1025px) {
+
+    /* Footer Css Starts*/
+
+.footer-section{
+	
+	display:grid;
+    grid-template-columns: auto auto auto auto;
+	background-color:#00053b;
+	margin-top:0px;
+	padding: 10px 20px;
+}
+
+.footer-about{
+	padding:0 10px;
+}
+
+.footer-about img{
+	width: 100%;
+    max-width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.useful-links, .social-icons{
+	padding:0 20px;
+	
+}
+
+.useful-links h4, .social-icons h4{
+	font-size:18px;
+	color:orange;
+	text-transform:capitalize;
+}
+
+.useful-links ul{
+	list-style: disc;
+	padding:0;
+    color: #fff;
+}
+
+.useful-links ul li, .social-icons ul li {
+	padding-bottom:10px;
+}
+
+.useful-links ul li a{
+	text-decoration:none;
+	font-size:18px;
+    color: #fff;
+}
+
+.social-icons ul{
+    display: flex;
+}
+
+.social-icons  ul li a{
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.social-icons ul{
+    list-style: none;
+}
+
+/* Footer Css Ends*/
+
+}
